@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Dewanshi Ramani - Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <video src="Dewanshi/Adra.mp4" class="logo"></video>
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#ABOUT ME">ABOUT ME</a></li>
+                <li><a href="#SERVICES">SERVICES</a></li>
+                <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+                <li><a href="#CONTECT">CONTACT</a></li>
+                
+                <i class="fas fa-times" onclick="closemenu()"></i>
+                  </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+        <div class="header-text">
+            <h1>Dewanshi Ramani</h1>
+            <p>Data Analyst</p>
+ </div>
+</div>
+<!-------------------abouut----------------- -->
+
+<div id="ABOUT ME">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Dewanshi/dewanshi.jpg.jpg"> 
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="sub1">Hello ,  My Name is Dewanshi
+                    My job consists in helping companies and researchers to analyse
+                    their datasets. I am skilled for most data analysis: Data cleaning,
+                    Modeling ,Transform data ,visualizing ,Advance Dashboards
+                    Results Communication.
+                    Since I was young, I have always enjoyed to solve puzzles.
+                    So that’s how I look at big data sets: to me it is one big puzzle
+                    I want to solve. Finding patterns nobody else sees is the challenge to me.</p>
+                 <p class="sub2">Do you want to work together? Please reach out to me by e-mail </p>
+                 <p class="sub3">Dewanshi Ramani</p>
+                    
+            </div>
+        </div>
+     </div>
+</div>
+<!--------------services----------- -->
+<div id="SERVICES">
+    <div class="container">
+        <h1 class="sub-title">SERVICES</h1>
+        <div class="services-list">
+            <div>
+                
+                <h2>Dashboards</h2>
+                <p>Dashboards show the most recent results in an interactive way. By clicking and 
+                   drilling, you will examine trends and patterns yourself</p>
+                <a href="dashboard.html">Example</a>
+            </div>
+            <div>
+                
+                <h2>Data Analysis</h2>
+                <p>I am specialized in analyzing data. Results, trends and are clearly presented in reports or tools</p>
+                <a href="data analysis.html">Example</a>
+            </div>
+            <div>
+                
+                <h2>Data Analytics</h2>
+                <p>Get more value from your data with prediction models and machine learning techniques
+                    , for example by predicting behavior or targeting the right customer</p>
+                <a href="data analytics.html">Example</a>    
+            </div>
+        </div>
+    </div>
+</div>
+ <!----------------------portfolio----------------- --> 
+ 
+ <div id="PORTFOLIO">
+    <div class="container">
+        <h1 class="sub-title">MY WORK</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Dewanshi/global cobid-19 dash1_page-0001.jpg">
+                <div class="layer">
+                    <h3>Dashboards</h3>
+                    <a href="dashboard.html" ><i class="fa-solid fa-paperclip"></i></a>
+                </div>
+               
+            </div>
+            <div class="work">
+                <img src="Dewanshi/Number-4.png">
+                <div class="layer">
+                    <h3>Data analysis</h3>
+                    <a href="data analysis.html"><i class="fa-solid fa-paperclip"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Dewanshi/analytics-3.png">
+                <div class="layer">
+                    <h3>Data analytics</h3>
+                    <a href="data analytics.html"><i class="fa-solid fa-paperclip"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+ </div>
+
+ <!-------------------------contect--------------------------->
+<div id="CONTECT">
+    <div class="container">
+        <h1 class="sub-title">CONTECT ME</h1>
+        <div class="contact-list">
+            <h2>Dewanshi</h2>
+            <a href="mailto:dewanshiramani184@gmail.com">dewanshiramani184@gamil.com</a>
+            <p>As a data expert, I know exactly how you can use data optimally within your business.
+                 Based on your objectives, we will make a plan to reach the right insight</p>     
+            <h2>I am available for:</h2>   
+            <p>Data analysis</p>  
+            <p>Data analytics (prediction models, segmentations)</p>
+            <p>Data visualisation (infographics, dashboards)</p>
+            <p>Data cleaning , Modeling (DAX function)</p>
+            <p>Statistical analysis</p>
+            <h2>Rates</h2>
+            <p>Data analysis, data analytics en visualisation projects: 45$ per hours</p>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
